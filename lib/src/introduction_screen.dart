@@ -223,7 +223,7 @@ class IntroductionScreenState extends State<IntroductionScreen> {
       onPressed: widget.onDone,
     );
 
-    return Scaffold(
+    return Container(
       backgroundColor: widget.globalBackgroundColor,
       body: Stack(
         children: [
