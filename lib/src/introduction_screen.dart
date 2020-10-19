@@ -224,8 +224,7 @@ class IntroductionScreenState extends State<IntroductionScreen> {
     );
 
     return Container(
-      backgroundColor: widget.globalBackgroundColor,
-      body: Stack(
+      child: Stack(
         children: [
           NotificationListener<ScrollNotification>(
             onNotification: _onScroll,
